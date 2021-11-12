@@ -31,6 +31,10 @@ Edit this document to include your answers after each question. Make sure to lea
 The ".map" creates a new array and itterates through each item in an array calling a provided function. A great usecase for this is
 when you want to iterate through an array with a function and create a new array based on that function.
 
+The ".reduce" returns a single value after iterating through an array with your provided reducer function. A great use case for the reducer method is when you want to find the accumulated value in an array filled with values.
+
+And the ".filter" creates a new array with elements that pass a test implemented by a provided function. A great usecase for the filter method is when you want to find a common set of values and return them in a new array.
+
 2. Explain the difference between a callback and a higher order function.
 
 A Callback function is a function that is passed in as an arguement for another function. A Higher order function is a function that operates on other functions by either taking them as arguements or returning a function..
